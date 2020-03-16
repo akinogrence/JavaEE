@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsp:root xmlns:t="urn:jsptagdir:/WEB-INF/tags" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html; ISO-8859-1" pageEncoding="UTF-8"/>
+
+    <jsp:element name="text">
+        <jsp:attribute name="lang">TR</jsp:attribute>
+        <jsp:body>
+          <t:tagdosyasi3 birinciSoz="akin" ikinciSoz="ogrence" ucuncuSoz="TEST"></t:tagdosyasi3><br/>
+          Duz Html<br/>
+        </jsp:body>
+    </jsp:element>
+</jsp:root>
